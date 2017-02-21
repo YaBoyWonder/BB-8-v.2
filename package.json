@@ -1,12 +1,12 @@
 {
-  "name": "Tutorial-Bot",
-  "version": "1.1.5",
-  "description": "An Idiot's Guide tutorial Bot",
+  "name": "BB-8 v2",
+  "version": "2.0",
+  "description": "Version 2 of BB-8",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "An Idiot's Guide",
+  "author": "Wonder",
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
