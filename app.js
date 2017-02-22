@@ -4,6 +4,10 @@ const settings = require('./settings.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
+const commando = require('discord.js-commando');
+const { oneLine } = require('common-tags');
+const path = require('path');
+const winston = require('winston');
 require('./util/eventLoader')(client);
 
 const log = message => {
