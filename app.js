@@ -46,6 +46,12 @@ client.reload = command => {
   });
 };
 
+client.util = {
+  embed: require('../util/embed'),
+  fetchStats: require('../util/fetchStats')(client),
+  isStaff: require('../util/isStaff')
+}
+
 client.elevation = message => {
 
 };
