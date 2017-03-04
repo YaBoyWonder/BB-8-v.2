@@ -1,3 +1,5 @@
+[![js-standard-style][standard-image]][standard-url]
+
 # BB-8-v.2
 
 
