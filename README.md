@@ -9,7 +9,6 @@ Here's a quick list:
 - Bot Framework, <a href="https://github.com/Gawdl3y/discord.js-commando"  target="_blank"><strong>Commando</strong></a>
 
 <p align="center">
-  <a href="https://github.com/feross/standard"><img src="https://cdn.rawgit.com/feross/standard/master/badge.svg" alt="JavaScript Standard Code Style"></a>
   <a href="https://discord.gg/wildbot"><img src="https://discordapp.com/api/guilds/110462143152803840/widget.png?style=banner2" alt="Discord server"></a>
 </p>
 ---
