@@ -10,7 +10,7 @@ const path = require('path');
 const winston = require('winston');
 require('./util/eventLoader')(client);
 
-const log = message => {
+  const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
 };
 
