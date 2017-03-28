@@ -18,7 +18,7 @@ client.commands = new Discord.Collection();
   client.aliases = new Discord.Collection();
     fs.readdir('./commands/', (err, files) => {
       if (err) console.error(err);
-        log(`Loading a total of ${files.length} commands.`);
+       log(`Loading a total of ${files.length} commands.`);
           files.forEach(f => {
        let props = require(`./commands/${f}`);
       log(`Loading Command: ${props.help.name}. 👌`);
