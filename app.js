@@ -1,60 +1,118 @@
+"use strict";
+
 const Discord = require('discord.js');
-const client = new Discord.Client();
 const settings = require('./settings.json');
-const chalk = require('chalk');
-const fs = require('fs');
-const moment = require('moment');
-const commando = require('discord.js-commando');
-const { oneLine } = require('common-tags');
-const path = require('path');
-const winston = require('winston');
+const ddiff = require('return-deep-diff');
+const client = new Discord.Client({fetchAllMembers: true})
+const wonder = "138431969418543104";
+const moment = require("moment");
+require("moment-duration-format");
+const fs = require("fs");
+let points = JSON.parse(fs.readFileSync('./points.json', 'utf8'));
+const db = require("sqlite");
+db.open("./selfbot.sqlite");
+client.settings = settings;
+client.db = db;
+const schedule = require('node-schedule');
+const date = require('date.js');
+const request = require('request');
+const rp = require('request-promise-native');
+const numeral = require('numeral');
 require('./util/eventLoader')(client);
 
-  const log = message => {
-  console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
-};
 
-client.commands = new Discord.Collection();
-  client.aliases = new Discord.Collection();
-    fs.readdir('./commands/', (err, files) => {
-      if (err) console.error(err);
-       log(`Loading a total of ${files.length} commands.`);
-          files.forEach(f => {
-       let props = require(`./commands/${f}`);
-      log(`Loading Command: ${props.help.name}. 👌`);
-   client.commands.set(props.help.name, props);
-  });
+//var readFile = JSON.parse(fs.readFileSync('../data.json', 'utf8'));*/
+/**********************************************************************/
+var Cleverbot = require("cleverbot-node");
+var cleverbot = new Cleverbot;
+var things = ["Yes", "No", "In the near future", "Possibly"];
+
+/**********************************************************************/
+
+client.on("guildCreate", guild => {
+		client.channels.get('256929247325716482').sendMessage("", {embed: {
+			color: 0x90BDF4,
+			title: "I've been invited to server **" + guild.name + "**\nServer ID: **" + guild.id + "**\nRegion: **" + guild.region + "**",
+			timestamp: new Date(),
+			footer: {
+				icon_url: client.user.avatarURL,
+				text: '©BB-8'
+			}
+		}});
 });
 
-client.reload = command => {
-  return new Promise((resolve, reject) => {
-    try {
-      delete require.cache[require.resolve(`./commands/${command}`)];
-      let cmd = require(`./commands/${command}`);
-      client.commands.delete(command);
-      client.aliases.forEach((cmd, alias) => {
-        if (cmd === command) client.aliases.delete(alias);
-      });
-      client.commands.set(command, cmd);
-      cmd.conf.aliases.forEach(alias => {
-        client.aliases.set(alias, cmd.help.name);
-      });
-      resolve();
-    } catch (e){
-      reject(e);
-    }
-  });
-};
+client.on("guildDelete", guild => {
+		client.channels.get('256929247325716482').sendMessage("", {embed: {
+			color: 0xFF0101,
+			title: "I've been removed from server **" + guild.name + "**",
+			timestamp: new Date(),
+			footer: {
+				icon_url: client.user.avatarURL,
+				text: '©BB-8'
+			}
+		}});
+});
 
-client.util = {
-   embed: require('../util/embed'),
-   fetchStats: require('../util/fetchStats')(client),
-    isStaff: require('../util/isStaff')
+
+client.on("guildMemberAdd", member => {
+	if (member.guild.id !== '174991160274583552') return;
+		client.channels.get('264519228613328912').sendMessage("", {embed: {
+			color: 0x57FBCA,
+			title: 'Welcome to our guild' + " " + member.user.username + '!',
+			timestamp: new Date(),
+			footer: {
+				icon_url: client.user.avatarURL,
+				text: '©BB-8'
+			}
+		}});
+});
+
+client.on("guildMemberRemove", member => {
+	if (member.guild.id !== '174991160274583552') return;
+		client.channels.get('264519228613328912').sendMessage("", {embed: {
+			color: 0xFC2F2F,
+			title: member.user.username + " " + "has left",
+			timestamp: new Date(),
+			footer: {
+				icon_url: client.user.avatarURL,
+				text: '©BB-8'
+			}
+		}});
+});
+
+var reload = (message, cmd) => {
+	if(message.author.id !== "138431969418543104") return;
+	delete require.cache[require.resolve('./commands/' + cmd)];
+	try {
+		let cmdFile = require('./commands/' + cmd);
+	} catch (err) {
+		message.channel.sendMessage(`Problem loading ${cmd}: ${err}`).then(
+			response => response.delete(1000).catch(error => console.log(error.stack))
+		).catch(error => console.log(error.stack));
+	}
+	message.channel.sendMessage(`${cmd} reload was a success!`).then(
+		response => response.delete(1000).catch(error => console.log(error.stack))
+	).catch(error => console.log(error.stack));
+};
+exports.reload = reload;
+
+this.util = {
+
+      isStaff: require('./util/isStaff')
+    
+    };
+
+
+
+/**********************************************************************/
+//var prefix = "bb"
+
+function clean(text) {
+  if (typeof(text) === "string")
+    return text.replace(/`/g, "`" + String.fromCharCode(8203)).replace(/@/g, "@" + String.fromCharCode(8203));
+  else
+      return text;
 }
-
-client.elevation = message => {
-
-};
 
 
 client.login(settings.token);
