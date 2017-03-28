@@ -23,7 +23,7 @@ require('./util/eventLoader')(client);
 
 /**********************************************************************/
 var Cleverbot = require("cleverbot-node");
-var cleverbot = new Cleverbot;
+ var cleverbot = new Cleverbot;
 var things = ["Yes", "No", "In the near future", "Possibly","Meh", "Maybe", "Sure, why not"];
 
 /**********************************************************************/
