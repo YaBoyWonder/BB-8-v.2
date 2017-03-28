@@ -20,7 +20,7 @@ client.commands = new Discord.Collection();
       if (err) console.error(err);
         log(`Loading a total of ${files.length} commands.`);
           files.forEach(f => {
-        let props = require(`./commands/${f}`);
+       let props = require(`./commands/${f}`);
       log(`Loading Command: ${props.help.name}. 👌`);
    client.commands.set(props.help.name, props);
   });
