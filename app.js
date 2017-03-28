@@ -21,11 +21,10 @@ const numeral = require('numeral');
 require('./util/eventLoader')(client);
 
 
-//var readFile = JSON.parse(fs.readFileSync('../data.json', 'utf8'));*/
 /**********************************************************************/
 var Cleverbot = require("cleverbot-node");
 var cleverbot = new Cleverbot;
-var things = ["Yes", "No", "In the near future", "Possibly"];
+var things = ["Yes", "No", "In the near future", "Possibly","Meh", "Maybe", "Sure, why not"];
 
 /**********************************************************************/
 
