@@ -1,4 +1,4 @@
-![Banner](http://fabzone.com/wp-content/uploads/2016/01/time-bb8-banner-2-960x300_c.jpg)
+![Banner](https://i.ytimg.com/vi/QSn6sW1v2fw/maxresdefault.jpg)
 # BB-8-v.2
 
 **Invite <a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>**
