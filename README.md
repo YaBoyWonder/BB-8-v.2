@@ -33,4 +33,8 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
  *`npm install discord.js`*
  7. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
  <!--<img align="right" height="260" src="http://i.imgur.com/Wna1Yrn.png"> -->
-<img src="http://imgur.com/Ank9iDu">
+<p align="center">
+    <a href=https://github.com/1Computer1/megumin-selfbot>
+        <img src=https://u.nya.is/pdikgi.png/>
+    </a>
+</p>  
