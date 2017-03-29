@@ -21,7 +21,7 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
   {
 	"prefix": "YOUR_BOT_PREFIX",
 	"token" : "YOUR_BOT_TOKEN",
-	"ownerID": "YOUR_DISCORD_ID",
+	"ownerID": "YOUR_DISCORD_ID"
 }
 ```
 
