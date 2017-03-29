@@ -2,7 +2,7 @@
 
 # BB-8-v.2
 
-Invite <a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>
+**Invite <a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>**
 
 
 - using the lib <a href="https://discord.js.org/#/"  target="_blank"><strong>Discord.JS</strong></a>
