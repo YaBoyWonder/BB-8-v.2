@@ -33,3 +33,9 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
  7. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
  <!--<img align="right" height="260" src="http://i.imgur.com/Wna1Yrn.png"> -->
 	`I'm Online`
+
+And you should be all set from there!
+
+**FAQ**
+
+ 1. To add commands, just go into the `commands` folder and put your cmd into it like the ping cmd
