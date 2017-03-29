@@ -12,4 +12,7 @@ Invite <a href="https://discordapp.com/oauth2/authorize?client_id=25171507355320
 
 
 
+This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
+
+  1. Download this repository or download <a href="https://git-scm.com/downloads">git</a> and clone this repository.
 
