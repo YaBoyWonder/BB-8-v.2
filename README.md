@@ -31,3 +31,6 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
  so you then just run `npm install` plus the missing dependency<br>
  *Example*
  *`npm install discord.js`*
+ 7. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
+ <!--<img align="right" height="260" src="http://i.imgur.com/Wna1Yrn.png"> -->
+<img src="http://imgur.com/a/iMjOT">
