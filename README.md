@@ -16,7 +16,7 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
 
   1. Download this repository or download <a href="https://git-scm.com/downloads">git</a> and clone this repository.
   2. Go get a `.sqlite` file, however rename it to say `selfbot.sqlite` once you have it
-  3. Create a file called `settings.json` and put in the file this
+  3. Create a file called `settings.json` and put in the file this. Then *fill out* the info
   ```js
   {
 	"prefix": "YOUR_BOT_PREFIX",
@@ -25,3 +25,9 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
 }
 ```
 
+ 4. Open up a command prompt (or your preferred terminal) in the bot folder.
+ 5. Run `node app.js` 
+ 6. Its going to say stuff like `could not find moment dependency or something close to it`,<br> 
+ so you then just run `npm install` plus the missing dependency<br>
+ *Example*
+ *`npm install discord.js`*
