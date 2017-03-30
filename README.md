@@ -5,7 +5,7 @@
 ![Downloads](https://img.shields.io/badge/downloads-20-blue.svg?style=flat-square)
 # BB-8-v.2
 
-**Invite <a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>**
+**Invite the bot<a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>**
 
 
 
