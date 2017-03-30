@@ -1,4 +1,5 @@
 ![Banner](https://i.ytimg.com/vi/QSn6sW1v2fw/maxresdefault.jpg)
+![Build](https://img.shields.io/travis/USER/REPO.svg)
 # BB-8-v.2
 
 **Invite <a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>**
