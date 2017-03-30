@@ -53,4 +53,4 @@ And you should be all set from there!
  *anything else your cmd requires just put it in the file*
 
  - To host while running <a href="http://pm2.keymetrics.io">pm2</a> 
- Just run `pm2 start app.js`
+ Just run `pm2 start app.js` in the bot file
