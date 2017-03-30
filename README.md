@@ -2,6 +2,7 @@
 <br>
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)
 ![Language](https://img.shields.io/badge/language-javascript-orange.svg?style=flat-square)
+![Downloads](https://img.shields.io/badge/downloads-19-blue.svg?style=flat-square)
 # BB-8-v.2
 
 **Invite <a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014">here</a>**
