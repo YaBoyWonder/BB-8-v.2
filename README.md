@@ -46,3 +46,4 @@ And you should be all set from there!
  exports.run = function(client, message, args) {
  }
  ```
+ *anything else your cmd requires just put it in the file*
