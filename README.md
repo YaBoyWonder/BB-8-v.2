@@ -56,3 +56,6 @@ And you should be all set from there!
 
  - To host while running <a href="http://pm2.keymetrics.io">pm2</a> 
  Just run `pm2 start app.js` in the bot file
+ 
+ - If you have a command that requires args, you don't need to define it since it already is
+ check the message handler in the events folder to see
