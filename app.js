@@ -39,12 +39,6 @@ var reload = (message, cmd) => {
 };
 exports.reload = reload;
 
-this.util = {
-
-      isStaff: require('./util/isStaff')
-    
-    };
-
 
 
 /**********************************************************************/
