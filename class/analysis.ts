@@ -1,7 +1,7 @@
 import { Message } from 'discord.js';
 
 
-const client = new CommandoClient({
+const client = new CommandClient({
 	unknownCommandResponse: true
 });
 
