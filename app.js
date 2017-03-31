@@ -17,11 +17,7 @@ require('./util/eventLoader')(client);
 
 
 /**********************************************************************/
-var Cleverbot = require("cleverbot-node");
- var cleverbot = new Cleverbot;
-var things = ["Yes", "No", "In the near future", "Possibly","Meh", "Maybe", "Sure, why not"];
 
-/**********************************************************************/
 
 var reload = (message, cmd) => {
 	if(message.author.id !== "YOUR_DISCORD_ID") return;
