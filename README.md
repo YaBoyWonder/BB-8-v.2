@@ -60,8 +60,10 @@ And you should be all set from there!
  - If you have a command that requires args, you don't need to define it since it already is
  check the message handler in the events folder to see
  
- **COMMANDS**
-| ping        | returns user's ping         |
-| owner        | sends the owner of the guild         |
-| members        | shows the amnt. of members in the guild         |
- 
+
+## COMMANDS
+| Option        | Usage         |
+| ------------- |---------------|
+| ping           | sends user's ms |
+| owner          | shows the owner of the guild              |
+| members          | shows the amnt. of members in the guild             |
