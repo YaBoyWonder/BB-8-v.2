@@ -23,48 +23,8 @@ var things = ["Yes", "No", "In the near future", "Possibly","Meh", "Maybe", "Sur
 
 /**********************************************************************/
 
-client.on("guildCreate", guild => {
-		client.channels.get('256929247325716482').sendMessage("", {embed: {
-			color: 0x90BDF4,
-			title: "I've been invited to server **" + guild.name + "**\nServer ID: **" + guild.id + "**\nRegion: **" + guild.region + "**",
-			timestamp: new Date(),
-			footer: {
-				icon_url: client.user.avatarURL,
-				text: '©BB-8'
-			}
-		}});
-});
-
-
-
-client.on("guildMemberAdd", member => {
-	if (member.guild.id !== '174991160274583552') return;
-		client.channels.get('264519228613328912').sendMessage("", {embed: {
-			color: 0x57FBCA,
-			title: 'Welcome to our guild' + " " + member.user.username + '!',
-			timestamp: new Date(),
-			footer: {
-				icon_url: client.user.avatarURL,
-				text: '©BB-8'
-			}
-		}});
-});
-
-client.on("guildMemberRemove", member => {
-	if (member.guild.id !== '174991160274583552') return;
-		client.channels.get('264519228613328912').sendMessage("", {embed: {
-			color: 0xFC2F2F,
-			title: member.user.username + " " + "has left",
-			timestamp: new Date(),
-			footer: {
-				icon_url: client.user.avatarURL,
-				text: '©BB-8'
-			}
-		}});
-});
-
 var reload = (message, cmd) => {
-	if(message.author.id !== "138431969418543104") return;
+	if(message.author.id !== "YOUR_DISCORD_ID") return;
 	delete require.cache[require.resolve('./commands/' + cmd)];
 	try {
 		let cmdFile = require('./commands/' + cmd);
@@ -88,7 +48,7 @@ this.util = {
 
 
 /**********************************************************************/
-//var prefix = "bb"
+
 
 function clean(text) {
   if (typeof(text) === "string")
