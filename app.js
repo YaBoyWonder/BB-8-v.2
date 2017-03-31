@@ -13,11 +13,6 @@ const db = require("sqlite");
 db.open("./selfbot.sqlite");
 client.settings = settings;
 client.db = db;
-const schedule = require('node-schedule');
-const date = require('date.js');
-const request = require('request');
-const rp = require('request-promise-native');
-const numeral = require('numeral');
 require('./util/eventLoader')(client);
 
 
@@ -40,17 +35,6 @@ client.on("guildCreate", guild => {
 		}});
 });
 
-client.on("guildDelete", guild => {
-		client.channels.get('256929247325716482').sendMessage("", {embed: {
-			color: 0xFF0101,
-			title: "I've been removed from server **" + guild.name + "**",
-			timestamp: new Date(),
-			footer: {
-				icon_url: client.user.avatarURL,
-				text: '©BB-8'
-			}
-		}});
-});
 
 
 client.on("guildMemberAdd", member => {
