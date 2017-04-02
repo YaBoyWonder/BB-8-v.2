@@ -16,7 +16,7 @@ exports.run = function(client, message, args) {
 	}
 
 	public async run(message: CommandMessage, args: {} | string | string[]): Promise<Message | Message[]> {
-		return message.say('test');
+		return message.say('Tesst');
 	}
 }
 
