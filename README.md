@@ -68,3 +68,5 @@ And you should be all set from there!
 | ping           | sends user's ms |
 | owner          | shows the owner of the guild              |
 | members          | shows the amnt. of members in the guild             |
+
+*if any errors occur while trying to run the bot, comment it and I will see to it shortly*
