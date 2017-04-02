@@ -4,6 +4,7 @@
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)
 ![Language](https://img.shields.io/badge/language-javascript-orange.svg?style=flat-square)
 ![Downloads](https://img.shields.io/badge/downloads-21-blue.svg?style=flat-square)
+![Language](https://img.shields.io/badge/⭐-1-green.svg?style=social)
 ---
 # BB-8-v.2
 
@@ -71,4 +72,4 @@ And you should be all set from there!
 
 *if any errors occur while trying to run the bot, comment it and I will see to it shortly*
 
-![Language](https://img.shields.io/badge/⭐-1-green.svg?style=social)
+
