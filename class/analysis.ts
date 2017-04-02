@@ -7,7 +7,7 @@ const client = new CommandClient({
 
 exports.run = function(client, message, args) {
 
-		message.channel.sendMessage('test');
+		message.channel.sendMessage('BB-8');
 	
 });
 
