@@ -70,3 +70,5 @@ And you should be all set from there!
 | members          | shows the amnt. of members in the guild             |
 
 *if any errors occur while trying to run the bot, comment it and I will see to it shortly*
+
+![Language](https://img.shields.io/badge/⭐-1-green.svg?style=social)
