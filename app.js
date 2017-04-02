@@ -1,6 +1,6 @@
 "use strict";
 
-const Discord = require('discord.js');
+const require('discord.js');
 const settings = require('./settings.json');
 const ddiff = require('return-deep-diff');
 const client = new Discord.Client({fetchAllMembers: true})
@@ -8,7 +8,6 @@ const wonder = "138431969418543104";
 const moment = require("moment");
 require("moment-duration-format");
 const fs = require("fs");
-let points = JSON.parse(fs.readFileSync('./points.json', 'utf8'));
 const db = require("sqlite");
 db.open("./selfbot.sqlite");
 client.settings = settings;
