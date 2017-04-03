@@ -32,14 +32,17 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
 	"ownerID": "YOUR_DISCORD_ID"
 }
 ```
-
- 4. Open up a command prompt (or your preferred terminal) in the bot folder.
- 5. Run `node app.js` 
- 6. Its going to say stuff like `could not find moment dependency or something close to it`,<br> 
+ 4. Go into the message file in the util folder, and when you find this line, edit to to have your bot's prefix aswell
+ ```js
+   var prefix = "YOUR_BOT_PREFIX"
+   ```
+ 5. Open up a command prompt (or your preferred terminal) in the bot folder.
+ 6. Run `node app.js` 
+ 7. Its going to say stuff like `could not find moment dependency or something close to it`,<br> 
  so you then just run `npm install` plus the missing dependency<br>
  *Example*
  *`npm install discord.js`*
- 7. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
+ 8. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
  <!--<img align="right" height="260" src="http://i.imgur.com/Wna1Yrn.png"> -->
 	`I'm Online`
 
