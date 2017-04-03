@@ -3,7 +3,7 @@ module.exports = message => {
 if (!message.content.startsWith(settings.prefix)) return;
   	if (message.author.bot) return;
   const client = message.client;
-  var prefix = "bb"
+  var prefix = "YOUR_BOT_PREFIX"
   const args = message.content.split(' ');
   const command = args.shift().slice(settings.prefix.length);
 
