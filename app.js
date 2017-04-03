@@ -1,5 +1,4 @@
 "use strict";
-
 const require('discord.js');
 const settings = require('./settings.json');
 const ddiff = require('return-deep-diff');
