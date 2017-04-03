@@ -32,7 +32,7 @@ This bot requires <a href="https://nodejs.org/en/">Node.js 7.0</a> or higher.
 	"ownerID": "YOUR_DISCORD_ID"
 }
 ```
- 4. Go into the message file in the util folder, and when you find this line, edit to to have your bot's prefix aswell
+ 4. Go into the message file in the events folder, and when you find this line, edit to to have your bot's prefix aswell
  ```js
    var prefix = "YOUR_BOT_PREFIX"
    ```
