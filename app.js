@@ -21,7 +21,7 @@ var reload = (message, cmd) => {
 	if(message.author.id !== "YOUR_DISCORD_ID") return;
 	delete require.cache[require.resolve('./commands/' + cmd)];
 	try {
-		let cmdFile = require('./commands/' + cmd);
+	 let cmdFile = require('./commands/' + cmd);
 	} catch (err) {
 		message.channel.sendMessage(`Problem loading ${cmd}: ${err}`).then(
 			response => response.delete(1000).catch(error => console.log(error.stack))
