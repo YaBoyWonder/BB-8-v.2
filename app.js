@@ -13,7 +13,6 @@ client.settings = settings;
 client.db = db;
 require('./util/eventLoader')(client);
 
-
 /**********************************************************************/
 
  var reload = (message, cmd) => {
