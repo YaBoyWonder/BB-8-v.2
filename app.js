@@ -11,7 +11,6 @@ const db = require("sqlite");
 db.open("./selfbot.sqlite");
 client.settings = settings;
 client.db = db;
-
 require('./util/eventLoader')(client);
 
 
