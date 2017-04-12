@@ -14,7 +14,6 @@ client.db = db;
 require('./util/eventLoader')(client);
 
 /**********************************************************************/
-
  var reload = (message, cmd) => {
 	if(message.author.id !== "YOUR_DISCORD_ID") return;
 	delete require.cache[require.resolve('./commands/' + cmd)];
