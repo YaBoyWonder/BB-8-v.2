@@ -16,7 +16,7 @@ require('./util/eventLoader')(client);
  var reload = (message, cmd) => {
 	if(message.author.id !== "YOUR_DISCORD_ID") return;
 	delete require.cache[require.resolve('./commands/' + cmd)];
-	try {
+try {
 	 let cmdFile = require('./commands/' + cmd);
 	} catch (err) {
 		message.channel.sendMessage(`Problem loading ${cmd}: ${err}`).then(
