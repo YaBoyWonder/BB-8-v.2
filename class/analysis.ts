@@ -6,7 +6,6 @@ const client = new CommandClient({
 });
 
 exports.run = function(client, message, args) {
-
 		message.channel.sendMessage('BB-8');	
 });
 	public hasPermission(message: CommandMessage): boolean {
