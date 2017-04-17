@@ -4,7 +4,6 @@ import { Message } from 'discord.js';
 const client = new CommandClient({
 	unknownCommandResponse: true
 });
-
 exports.run = function(client, message, args) {
 		message.channel.sendMessage('BB-8');	
 });
