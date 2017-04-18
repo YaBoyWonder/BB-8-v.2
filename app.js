@@ -8,7 +8,7 @@ const moment = require("moment");
 require("moment-duration-format");
 const fs = require("fs");
 const db = require("sqlite");
-db.open("./selfbot.sqlite");
+db.open("./bot.sqlite");
 client.settings = settings;
 client.db = db;
 require('./util/eventLoader')(client);
