@@ -46,7 +46,7 @@
  *`npm install discord.js`*
  8. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
  <!--<img align="right" height="260" src="http://i.imgur.com/Wna1Yrn.png"> -->
-	`I'm Online`
+	`I\'m Online and Ready to go`
 
 And you should be all set from there!
 
