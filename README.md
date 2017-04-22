@@ -53,7 +53,7 @@ And you should be all set from there!
 **FAQ**
 
  - To add commands, just go into the `commands` folder and put your cmd into it like the ping cmd
- Just make sure to put it within this 
+ Just make sure to put it within this handler
  ```js
  exports.run = function(client, message, args) {
 
