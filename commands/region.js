@@ -1,11 +1,1 @@
-exports.run = function(client, message, args) {
-  message.channel.sendMessage("", {embed: {
-    color: 3447003,
-    title: message.guild.region,
-    timestamp: new Date(),
-    footer: {
-      icon_url: client.user.avatarURL,
-      text: '©BB-8'
-    }
-  }});
-}
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('8.9=a(1,0,7){0.b.6("",{2:{3:5,4:0.c.j,k:l i(),h:{d:1.e.f,g:\'m ❤\'}}})}',23,23,'message|client|embed|color|title|3447003|sendMessage|args|exports|run|function|channel|guild|icon_url|user|avatarURL|text|footer|Date|region|timestamp|new|Wonder'.split('|'),0,{}))
