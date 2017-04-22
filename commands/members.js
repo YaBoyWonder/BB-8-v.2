@@ -1,10 +1,1 @@
-exports.run = function(client, message, args) {
-  message.channel.sendMessage("", {embed: {
-    color: 0x00FF7F,
-    title: message.guild.memberCount,
-      footer: {
-      icon_url: client.user.avatarURL,
-      text: 'Wonder ❤'
-    }
-  }});
-}
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7.8=6(1,0,a){0.5.2("",{3:{4:9,b:0.i.g,f:{c:1.d.e,j:\'h ❤\'}}})}',20,20,'message|client|sendMessage|embed|color|channel|function|exports|run|0x00FF7F|args|title|icon_url|user|avatarURL|footer|memberCount|Wonder|guild|text'.split('|'),0,{}))
