@@ -1,4 +1,4 @@
-  msg.author.sendMessage("", {embed: {
+  message.author.sendMessage("", {embed: {
  color: 0x6FED40,
  author: {
    name: client.user.username,
