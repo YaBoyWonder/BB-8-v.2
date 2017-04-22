@@ -1,7 +1,1 @@
-exports.run = function(client, message, args) {
-  message.channel.sendMessage("", {embed: {
-      color: 0x3FF2C8,
-      title: `Pong! \`${Date.now() - message.createdTimestamp} ms\``,
-     
-    }});
-};
+eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('7.8=9(1,0,6){0.b.5("",{2:{3:4,a:`m!\\`${c.k()-0.l}i\\``,h:{d:1.e.f,g:\'j ❤\'}}})};',23,23,'message|client|embed|color|0x3FF2C8|sendMessage|args|exports|run|function|title|channel|Date|icon_url|user|avatarURL|text|footer|ms|Wonder|now|createdTimestamp|Pong'.split('|'),0,{}))
