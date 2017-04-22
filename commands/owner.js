@@ -5,7 +5,7 @@ exports.run = function(client, message, args) {
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: '©BB-8'
+      text: 'Wonder ❤'
     }
   }});
 }
