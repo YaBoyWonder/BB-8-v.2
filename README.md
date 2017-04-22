@@ -3,7 +3,7 @@
 ---
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)
 ![Language](https://img.shields.io/badge/language-javascript-orange.svg?style=flat-square)
-![Downloads](https://img.shields.io/badge/downloads-21-blue.svg?style=flat-square)
+![Downloads](https://img.shields.io/badge/downloads-26%20-blue.svg?style=flat-square)
 ![Language](https://img.shields.io/badge/⭐-1-green.svg?style=social)
 ---
 # BB-8-v.2
