@@ -8,7 +8,7 @@ fields: [
 {
  name: "members",
  value: `shows the amnt. of members in the guild`,
-   inline: true
+ inline: true
  },
 {
 name: "owner",
