@@ -7,7 +7,7 @@
 fields: [
 {
  name: "members",
-   value: `shows the amnt. of members in the guild`,
+ value: `shows the amnt. of members in the guild`,
    inline: true
  },
 {
