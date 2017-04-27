@@ -67,7 +67,7 @@ And you should be all set from there!
  - If you have a command that requires args, you don't need to define it since it already is
  check the message handler in the events folder to see
  
-- If you update/add/remove a cmd, you dont need to restart the bot. Just reload the command
+- If you update/add a cmd, you dont need to restart the bot. Just reload the command
 
 ## COMMANDS
 | Option        | Usage         |
