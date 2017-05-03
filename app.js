@@ -13,7 +13,8 @@ client.settings = settings;
 client.db = db;
 require('./util/eventLoader')(client);
 /**********************************************************************/
- var reload = (message, cmd) => {
+ 
+var reload = (message, cmd) => {
 	if(message.author.id !== "YOUR_DISCORD_ID") return;
 	delete require.cache[require.resolve('./commands/' + cmd)];
 try {
@@ -28,7 +29,6 @@ try {
 	).catch(error => console.log(error.stack));
 };
 exports.reload = reload;
-
 
 /**********************************************************************/
 
