@@ -17,7 +17,7 @@ module.exports = class ShardInfoCommand extends Command {
                 {
                    key: 'shard',
                     prompt: 'Which Shard would you like to get data for?',
-                    type: 'integer'
+                   type: 'integer'
                 }
             ]
         });
