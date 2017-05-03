@@ -46,7 +46,7 @@ module.exports = class StatsCommand extends Command {
 					inline: true
 				}
 			],
-			thumbnail: { url: this.client.user.avatarURL }
+		    thumbnail: { url: this.client.user.avatarURL }
 		});
 	}
 };
