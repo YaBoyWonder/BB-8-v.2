@@ -35,7 +35,7 @@ module.exports = class ShardInfoCommand extends Command {
         const guilds = await this.client.shard.fetchClientValues('guilds.size');
         const embed = new RichEmbed()
             .setTitle(`Data for Shard ${shard}:`)
-            .setColor(0x00AE86)
+            .setColor(0x5C59DE)
             .addField('Servers',
                 guilds[shard], true)
             .addField('Memory Usage',
