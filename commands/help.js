@@ -27,7 +27,7 @@ inline: true
 },
 {
 name: "github",
-value: `flips a coin for heads or tails`,
+value: `shows the developer's github`,
 inline: true
 },
 {
