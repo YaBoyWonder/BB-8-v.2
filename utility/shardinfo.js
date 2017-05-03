@@ -15,7 +15,7 @@ module.exports = class ShardInfoCommand extends Command {
             description: 'Gives some bot info for the Shard you specify.',
             args: [
                 {
-                    key: 'shard',
+                   key: 'shard',
                     prompt: 'Which Shard would you like to get data for?',
                     type: 'integer'
                 }
