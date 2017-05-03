@@ -23,7 +23,7 @@ module.exports = class StatsCommand extends Command {
 	run(message) {
 		return message.embed({
 			color: 0x6B2BE2,
-			description: '**Nitro Statistics**',
+			description: '**BB-8 Statistics**',
 			fields: [
 				{
 					name: '-Uptime',
