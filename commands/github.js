@@ -1,3 +1,3 @@
  exports.run = function(client, message, args) {
-		message.reply("Here is my git: https://github.com/YaBoyWonder")
+		message.reply("Here is my developer's git: https://github.com/YaBoyWonder")
 	}
