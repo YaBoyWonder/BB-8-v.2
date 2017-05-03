@@ -24,7 +24,7 @@ try {
 		).catch(error => console.log(error.stack));
 	}
 	message.channel.sendMessage(`${cmd} reload was a success!`).then(
-	   response => response.delete(1000).catch(error => console.log(error.stack))
+	 	response => response.delete(1000).catch(error => console.log(error.stack))
 	).catch(error => console.log(error.stack));
 };
 exports.reload = reload;
