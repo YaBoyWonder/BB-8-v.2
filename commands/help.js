@@ -26,6 +26,11 @@ value: `flips a coin for heads or tails`,
 inline: true
 },
 {
+name: "github",
+value: `flips a coin for heads or tails`,
+inline: true
+},
+{
  name: "region",
  value: `shows the region of the guild`,
  inline: true
