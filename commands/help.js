@@ -27,7 +27,7 @@ inline: true
 },
 {
 name: "github",
-value: `shows the developer's github`,
+value: `shows the developer's github acc.`,
 inline: true
 },
 {
