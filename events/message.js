@@ -1,7 +1,7 @@
 const settings = require('./settings.json');
 module.exports = message => {
 if (!message.content.startsWith(settings.prefix)) return;
-  	if (message.author.bot) return;
+if (message.author.bot) return;
   const client = message.client;
   var prefix = "YOUR_BOT_PREFIX"
   const args = message.content.split(' ');
