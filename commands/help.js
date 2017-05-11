@@ -30,7 +30,7 @@ name: "github",
 value: `shows the developer's github acc.`,
 inline: true
 },
-  {
+{
 name: "quote",
 value: `quote's a user's text msg`,
 inline: true
