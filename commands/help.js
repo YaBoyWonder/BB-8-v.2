@@ -1,5 +1,5 @@
   message.author.sendMessage("", {embed: {
- color: 0x6FED40,
+ color: 0xFCEFEC,
  author: {
    name: client.user.username,
    icon_url: client.user.avatarURL
