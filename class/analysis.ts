@@ -1,9 +1,9 @@
 import { Message } from 'discord.js';
 const client = new CommandClient({
-	unknownCommandResponse: true
+unknownCommandResponse: true
 });
 exports.run = function(client, message, args) {
-		message.channel.sendMessage('BB-8 is online and ready to go');	
+	message.channel.sendMessage('BB-8 is online and ready to go');	
 });
 	public hasPermission(message: CommandMessage): boolean {
 			return true;
