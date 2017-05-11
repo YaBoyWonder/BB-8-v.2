@@ -1,7 +1,7 @@
   message.author.sendMessage("", {embed: {
  color: 0xFCEFEC,
  author: {
-   name: client.user.username,
+   name: client.user.username, 
     icon_url: client.user.avatarURL
  },
 fields: [
