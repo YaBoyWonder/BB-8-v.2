@@ -9,7 +9,7 @@ exports.run = function(client, message, args) {
 			return true;
 	}
 	public async run(message: CommandMessage, args: {} | string | string[]): Promise<Message | Message[]> {
-		return message.say('Tesst');
+		return message.say('Test Online');
 	}
 }
 
