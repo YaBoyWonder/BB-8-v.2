@@ -40,5 +40,5 @@ inline: true
  value: `shows the region of the guild`,
  inline: true
 },
-]
+ ]
 }});
