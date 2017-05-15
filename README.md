@@ -48,7 +48,7 @@ A Discord.js Bot I originally put into <a href="https://github.com/Gawdl3y/disco
  *`npm install discord.js`*
  8. Once you have downloaded everything, the next time you run `node app.js`, it should say<br>
  <!--<img align="right" height="260" src="http://i.imgur.com/Wna1Yrn.png"> -->
-	`I'm Online and Ready to go`
+	`I'm Online`
 
 And you should be all set from there!
 
