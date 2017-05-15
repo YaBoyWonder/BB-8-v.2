@@ -40,6 +40,7 @@ A Discord.js Bot I originally put into <a href="https://github.com/Gawdl3y/disco
  ```js
    var prefix = "YOUR_BOT_PREFIX"
    ```
+ 5. Go into `app.js` file and edit out the line on no.18 with your Discord I.D
  5. Open up a command prompt (or your preferred terminal) in the bot folder.
  6. Run `node app.js` 
  7. Its going to say stuff like `could not find moment dependency or something close to it`,<br> 
