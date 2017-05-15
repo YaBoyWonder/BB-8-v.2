@@ -82,6 +82,7 @@ And you should be all set from there!
 | members          | shows the amnt. of members in the guild             |
 | region          | sends the region of the guild          |
 | coin          | flips a coin (heads or tails)         |
+| quote          | quotes a message via ID         |
 
 *if any errors occur while trying to run the bot, comment them **here** and I will see to it shortly*
 
