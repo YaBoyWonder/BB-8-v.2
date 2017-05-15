@@ -55,6 +55,8 @@ And you should be all set from there!
 
 **FAQ**
 
+ - This Bot was developed in v11.0.0
+
  - To add commands, just go into the `commands` folder and put your cmd into it like the ping cmd
  Just make sure to put it within this handler
  ```js
