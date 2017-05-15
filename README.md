@@ -74,7 +74,7 @@ And you should be all set from there!
  
 - If you update/add a cmd, you dont need to restart the bot. Just reload the command
 
-## COMMANDS
+## PRE-BUILT COMMANDS
 | Option        | Usage         |
 | ------------- |---------------|
 | ping           | sends user's ms |
