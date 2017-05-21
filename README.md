@@ -1,6 +1,7 @@
 ![Banner](https://i.ytimg.com/vi/QSn6sW1v2fw/maxresdefault.jpg)
 <br>
 ---
+ <a href="https://discord.gg/TsaGrwg"><img src="https://discordapp.com/api/guilds/304768817526210562/embed.png" alt="Discord server" /></a>
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)
 ![Language](https://img.shields.io/badge/language-javascript-orange.svg?style=flat-square)
 ![Downloads](https://img.shields.io/badge/downloads-36-blue.svg?style=flat-square)
