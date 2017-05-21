@@ -18,8 +18,6 @@ A Discord.js Bot I originally put into <a href="https://github.com/Gawdl3y/disco
 - Version 2 of <a href="https://github.com/YaBoyWonder/BB-8-Bot">BB-8</a>
 
 
- [![](https://discordapp.com/api/guilds/304768817526210562/embed.png?style=banner2)](https://discord.gg/TsaGrwg)
-
 **__Installation + Hosting Yourself__**
 
 
@@ -84,7 +82,7 @@ And you should be all set from there!
 | coin          | flips a coin (heads or tails)         |
 | quote          | quotes a message via ID         |
 
-*if any errors occur while trying to run the bot, comment them **here** and I will see to it shortly*
+*if any errors occur while trying to run the bot, comment them **here** or join this server and message me and I will see to it shortly*
 
-Wonder™ ツ#3350
+ [![](https://discordapp.com/api/guilds/304768817526210562/embed.png?style=banner2)](https://discord.gg/TsaGrwg)
 
