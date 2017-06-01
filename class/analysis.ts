@@ -4,7 +4,7 @@ unknownCommandResponse: true
 });
 exports.run = function(client, message, args) {
   message.channel.sendMessage('BB-8 is online and ready to function');	
-});  
+});   
 	public hasPermission(message: CommandMessage): boolean {
 		  return true;
 	}  
