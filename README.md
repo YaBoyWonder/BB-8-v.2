@@ -11,7 +11,6 @@
 
 A Discord.js Bot I originally put into <a href="https://github.com/Gawdl3y/discord.js-commando/blob/master/README.md">Commando</a>, however I made this version so its easier for users to use
 
-**Invite the bot<a href="https://discordapp.com/oauth2/authorize?client_id=251715073553203200&scope=bot&permissions=32014"> here</a>**
 
  
 
