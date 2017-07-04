@@ -16,7 +16,7 @@
 - Version 2 of <a href="https://github.com/YaBoyWonder/BB-8-Bot">BB-8</a>
 
 
- [![](https://discordapp.com/api/guilds/304768817526210562/embed.png?style=banner2)](https://discord.gg/TsaGrwg)
+ 
 
 **__Installation + Hosting Yourself__**
 
@@ -80,3 +80,4 @@ And you should be all set from there!
 
 *if any errors occur while trying to run the bot, comment them **here** and I will see to it shortly*
 
+[![](https://discordapp.com/api/guilds/304768817526210562/embed.png?style=banner2)](https://discord.gg/TsaGrwg)
