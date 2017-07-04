@@ -1,4 +1,4 @@
-![Banner](https://i.ytimg.com/vi/QSn6sW1v2fw/maxresdefault.jpg)
+![Banner](http://i.imgur.com/Knxv42N.png)
 <br>
 ---
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=flat-square)
